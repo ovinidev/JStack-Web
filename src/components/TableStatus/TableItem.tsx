@@ -1,7 +1,8 @@
 import { Flex, Text } from "@chakra-ui/react";
+import { IOrder } from "../../interfaces/IOrder";
 
 interface TableItemProps {
-  tableNumber: number;
+  tableNumber: string;
   itemsCount: number;
   onClick: () => void;
 }
